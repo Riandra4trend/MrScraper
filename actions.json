@@ -1,0 +1,15 @@
+[
+    {
+        "action_type": "select",
+        "element_identifier": "//select[contains(@onchange, 'ranch_search.php')]",
+        "element_type": "xpath",
+        "value": "United States - Alabama",
+        "description": "Select location to Alabama"
+    },
+    {
+        "action_type": "click",
+        "element_identifier": "//input[@name='btnsubmit' and @value='Search']",
+        "element_type": "xpath",
+        "description": "Click the search button"
+    }
+]
